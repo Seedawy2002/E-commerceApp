@@ -1,18 +1,22 @@
 # E-commerce Software System
 
-## Description:
+## Description
 The E-commerce Software System is a web-based platform that allows customers to purchase products online. This software system is designed to provide an easy-to-use and secure platform for customers to browse products, add products to their shopping carts, and checkout with payment. The software system also allows administrators to manage products, orders, and customer information.
 
 ## Table of Contents:
-Installation
+[Installation](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#installation)
 
-Usage
+[Usage](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#usage)
 
-Features
+[Features](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#features)
 
-Contributing
+[Contributing](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#contributing)
 
-License
+[Acknowledgements](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#acknowledgements)
+
+[License](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#license-)
+
+[Contact](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#contact)
 
 ## Installation
 To install and run the E-commerce Software System, follow these steps:
@@ -44,6 +48,14 @@ If you would like to contribute to the E-commerce Software System, please follow
 2. Create a new branch for your changes.
 3. Make your changes and commit them to your branch.
 4. Submit a pull request.
+
+## Acknowledgements
+We would like to express our gratitude to everyone who contributed to the development of this e-commerce software system.
+We would like to thank our project managers for providing guidance and oversight throughout the development process.
+We would like to thank our development team for their hard work and dedication in building this system, including designing the architecture, implementing the features, and conducting testing and debugging.
+We would also like to thank our stakeholders for their input and feedback, which helped to shape the final product.
+Finally, we would like to acknowledge the open-source software community for providing valuable tools and resources that were used in the development of this system.
+Thank you all for your contributions and support.
 
 ## License [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 The E-commerce Software System is licensed under the MIT License. See LICENSE for details.
