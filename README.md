@@ -1,24 +1,30 @@
-##E-commerce Software System
-#Description:
+# E-commerce Software System
+
+## Description:
 The E-commerce Software System is a web-based platform that allows customers to purchase products online. This software system is designed to provide an easy-to-use and secure platform for customers to browse products, add products to their shopping carts, and checkout with payment. The software system also allows administrators to manage products, orders, and customer information.
 
-#Table of Contents:
+## Table of Contents:
 Installation
+
 Usage
+
 Features
+
 Contributing
+
 License
 
-#Installation
+## Installation
 To install and run the E-commerce Software System, follow these steps:
 1. Clone the repository.
 2. Install dependencies using the command npm install.
 3. Create a .env file and add your configuration details.
 4. Run the command npm start to start the server.
-Usage
+
+## Usage
 5. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
 
-#Features
+## Features
 The E-commerce Software System provides the following features:
 1. User management: Customers can create a new account, login, and logout. Customers can reset their password. Customers can update their account information. Administrators can manage customer accounts.
 2. Product management: Administrators can add, edit, and delete products. Administrators can assign products to categories and subcategories. Administrators can set prices, inventory levels, and product descriptions. Customers can browse products by category, subcategory, and keyword search. Customers can view product details, images, and customer reviews.
@@ -32,12 +38,15 @@ The E-commerce Software System provides the following features:
 10. Reviews and ratings: Customers can leave reviews and ratings for products. The system will display reviews and ratings on the product page.
 11. Reporting: The system will provide reports on sales, revenue, and customer data for administrators.
 
-#Contributing
+## Contributing
 If you would like to contribute to the E-commerce Software System, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your changes.
 3. Make your changes and commit them to your branch.
 4. Submit a pull request.
 
-#License
+## License [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 The E-commerce Software System is licensed under the MIT License. See LICENSE for details.
+
+## Contact
+If you have any questions or comments about our Software App, please contact us at [s-mariam.elseedawy@zewailcity.edu.eg](mailto:s-mariam.elseedawy@zewailcity.edu.eg).
