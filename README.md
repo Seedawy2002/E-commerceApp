@@ -41,6 +41,7 @@ The E-commerce Software System provides the following features:
 9. Social media integration: Customers can share products on social media platforms.
 10. Reviews and ratings: Customers can leave reviews and ratings for products. The system will display reviews and ratings on the product page.
 11. Reporting: The system will provide reports on sales, revenue, and customer data for administrators.
+12. Support: Allow user to report any problem to respond to it.
 
 ## Contributing
 If you would like to contribute to the E-commerce Software System, please follow these steps:
