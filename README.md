@@ -33,6 +33,7 @@ To install and run the E-commerce Software System, follow these steps:
       - You can add comment by clicking on Add comment
       - You can delete a comment by clicking on x button
       - You can view all of your comment by clicking on support in the home menu
+   
    b. As an admin:
       - You can view all comments by clicking on view support
 
