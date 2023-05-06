@@ -26,7 +26,15 @@ To install and run the E-commerce Software System, follow these steps:
 4. Run the command npm start to start the server.
 
 ## Usage
-5. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
+0. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
+1. Support:
+
+   a. As a user:
+      - You can add comment by clicking on Add comment
+      - You can delete a comment by clicking on x button
+      - You can view all of your comment by clicking on support in the home menu
+   b. As an admin:
+      - You can view all comments by clicking on view support
 
 ## Features
 The E-commerce Software System provides the following features:
