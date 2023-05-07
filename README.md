@@ -6,6 +6,10 @@ The E-commerce Software System is a web-based platform that allows customers to 
 ## Table of Contents:
 [Installation](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#installation)
 
+[Running The App](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#running-the-app)
+
+[Viewing The App](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#viewing-the-app)
+
 [Usage](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#usage)
 
 [Features](https://github.com/Seedawy2002/E-commerceApp/edit/main/README.md#features)
@@ -34,6 +38,12 @@ pip install flask-sqlalchemy
 ```bash
 pip install flask-login
 ```
+```bash
+pip install flask-bcrypt
+```
+```bash
+pip install flask-session
+```
 
 ## Running The App
 ```bash
@@ -52,27 +62,46 @@ and from it admin can View, Add, Edit and Delete the Products
 Go to `http://127.0.0.1:5000`
 
 ## Usage
-0. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
+0. Once the server is running, you can access the platform by opening your web browser and navigating to the URL `http://127.0.0.1:5000`. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
 1. Sign up:
+
    a. As a user:
-      1- Enter first name
-      2- Enter Last name
-      3- Enetr email: make sure that you use a real email with "@" also make sure that it is a new email
-      4- Enter a Password
-      5- Enter Sing Up
-      
+      - Enter first name
+      - Enter Last name
+      - Enetr email: make sure that you use a real email with "@" also make sure that it is a new email
+      - Enter a Password
+      - Enter Sing Up
+
    b. As a Admin:
-      1- go to main file, line 43 and add your info manually
+      - go to main file, line 43 and add your info manually
       
 2. Log in:
+
    a. As a user:
-      1- wait for admin approval
-      2- enter your mail
-      3- enter your password
-   b. As a Admin:
-      1- enter your mail
+      - wait for admin approval
+      - enter your mail
+      - enter your password
       
-3. Product:
+   b. As a Admin:
+      - enter your mail
+     
+3. Admin show all users
+   - log in as admin
+   - view users dashboard 
+    
+4. Admin approval:
+   - log in as admin
+   - view all users request
+   - approve the needed request
+    
+5. Admin and user change password:
+   - log in as your role
+   - click change password
+   - the program will authenticat you
+   - you will be directed to new page to enter new password
+   - click save
+    
+6. Product:
 
    a. As an admin:
       - You can add Product by filling data of the product and clicking on Add Product
@@ -80,7 +109,15 @@ Go to `http://127.0.0.1:5000`
       - You can delete a Product by clicking on delete button
       - You can update a Product by clicking on update button and edit the data of the Product then update button again
 
-4. Support:
+7. User update its information:
+
+    - Enter first name
+    - Enter Last name
+    - Enetr email: make sure that you use a real email with "@" also make sure that it is a new email
+    - Enter a Password
+    - Enter save
+
+8. Support:
 
    a. As a user:
       - You can add comment by clicking on Add comment
