@@ -27,7 +27,26 @@ To install and run the E-commerce Software System, follow these steps:
 
 ## Usage
 0. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
-1. Support:
+1. Sign up:
+   a. As a user:
+      1- Enter first name
+      2- Enter Last name
+      3- Enetr email: make sure that you use a real email with "@" also make sure that it is a new email
+      4- Enter a Password
+      5- Enter Sing Up
+      
+   b. As a Admin:
+      1- go to main file, line 43 and add your info manually
+      
+2. Log in
+   a. As a user:
+      1- wait for admin approval
+      2- enter your mail
+      3- enter your password
+   b. As a Admin:
+      1- enter your mail
+      2- enter your password
+3. Support:
 
    a. As a user:
       - You can add comment by clicking on Add comment
