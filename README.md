@@ -24,10 +24,63 @@ To install and run the E-commerce Software System, follow these steps:
 2. Install dependencies using the command npm install.
 3. Create a .env file and add your configuration details.
 4. Run the command npm start to start the server.
+5. Make sure you have the latest version of Python installed, then install the following packages:
+```bash
+pip install flask
+```
+```bash
+pip install flask-sqlalchemy
+```
+```bash
+pip install flask-login
+```
+
+## Running The App
+```bash
+python main.py
+```
+
+## Running The Product Functions
+*Run the App
+
+*Login\Sign Up as Adminsterator
+
+*Home Page(Product Manager Page) will Open
+and from it admin can View, Add, Edit and Delete the Products
+
+## Viewing The App
+Go to `http://127.0.0.1:5000`
 
 ## Usage
 0. Once the server is running, you can access the platform by opening your web browser and navigating to the URL [To be added]. From there, you can browse products, add products to your shopping cart, and checkout with payment. Administrators can manage products, orders, and customer information by logging in to the system.
-1. Support:
+1. Sign up:
+   a. As a user:
+      1- Enter first name
+      2- Enter Last name
+      3- Enetr email: make sure that you use a real email with "@" also make sure that it is a new email
+      4- Enter a Password
+      5- Enter Sing Up
+      
+   b. As a Admin:
+      1- go to main file, line 43 and add your info manually
+      
+2. Log in:
+   a. As a user:
+      1- wait for admin approval
+      2- enter your mail
+      3- enter your password
+   b. As a Admin:
+      1- enter your mail
+      
+3. Product:
+
+   a. As an admin:
+      - You can add Product by filling data of the product and clicking on Add Product
+      - You can view all of your Saved Products 
+      - You can delete a Product by clicking on delete button
+      - You can update a Product by clicking on update button and edit the data of the Product then update button again
+
+4. Support:
 
    a. As a user:
       - You can add comment by clicking on Add comment
@@ -36,6 +89,7 @@ To install and run the E-commerce Software System, follow these steps:
    
    b. As an admin:
       - You can view all comments by clicking on view support
+
 
 ## Features
 The E-commerce Software System provides the following features:
